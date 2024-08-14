@@ -1,0 +1,41 @@
+p{
+  
+    font-family: "Aref Ruqaa Ink", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.leftSide{
+  display: flex;
+  flex-direction: column;
+} 
+img{
+ height: 200px;
+  width: 200px;
+}
+
+.containt{
+ width: 400px;
+
+} 
+
+.leftSide{
+  height: 100%;
+  width: 40%;
+  /* background-color: red; */
+}
+.rightSide{
+  height: 100%;
+  width: 60%;
+  
+}
+.heading{
+  width: 100%;
+  background-color: blanchedalmond;
+  
+}
+.biodata{
+  height: 300px;
+  width: 100%;
+
+}

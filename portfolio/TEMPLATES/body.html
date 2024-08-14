@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>body</title>
+ <link rel="stylesheet" href="{% static 'css/body.css'%}">
+</head>
+<body>
+ <div class="container d-flex flex-row mt-3">
+  <div class="leftSide">
+  <div class="profilePhoto mt-3">
+    <img src= "{% static 'images/1.png' %}" class="rounded-circle">
+  </div>
+  <div class="containt mt-2">
+    <p style="font-size: xxx-large;">Hi..</p>
+    <p>My name is <mark>Gaurav Nautiyal</mark> </p>
+  </div>
+</div>
+<div class="rightSide d-flex justify-content-center flex-column">
+  <div class="heading d-flex justify-content-center ">
+  <h3>
+    Fancy display heading
+    <small class="text-muted">With faded secondary text</small>
+  </h3>
+</div>
+<div class="biodata mt-2">
+<table class="table pt-5">
+  <tr>
+    <td>
+      Education
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Diploma in Informatin Technology
+      (GPD)
+    </td>
+  </tr>
+  <tr>
+    <td>Languages</td>
+  </tr>
+  <tr>
+    <td>
+      c, c++, java,javaSrcipt,Python etc.
+    </td>
+  </tr>
+  <tr>
+    <td>Projects</td>
+  </tr>
+  <tr>
+    <td>
+      .........................................................................
+    </td>
+  </tr>
+  <tr>
+    <td>Experience</td>
+  </tr>
+  <tr>
+    <td>
+      ........................none.................................................
+    </td>
+  </tr>
+</table>
+</div>
+ </div>
+ </div>
+</body>
+</html>
